@@ -27,8 +27,8 @@ ChartJS.register(
   Tooltip,
   Legend
 );
-//local run 
-const API_BASE = "http://localhost:3000";
+// empty string for Vercel
+const API_BASE = "";
 
 
 

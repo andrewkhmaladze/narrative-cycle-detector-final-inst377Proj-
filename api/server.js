@@ -241,7 +241,7 @@ app.get("/api/topic/:topic", async (req, res) => {
 
 
 
-    
+
 
     /*
     
@@ -283,8 +283,12 @@ START SERVER
 
 */
 
-app.listen(3000, () => {
-  console.log(
-    "Server running on http://localhost:3000"
-  );
-});
+if (!process.env.VERCEL) {
+  app.listen(3000, () => {
+    console.log(
+      "Server running http://localhost:3000"
+    );
+  });
+}
+//attempt fix 1 (Vercel): Express app for the deployed backend 
+export default app;
