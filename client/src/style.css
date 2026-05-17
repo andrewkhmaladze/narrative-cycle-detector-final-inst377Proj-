@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d2ff85;
+    color: #1c1b1b;
+  }
+  
+  nav {
+    background-color: #111827;
+    padding: 16px;
+  }
+  
+  nav a {
+    color: rgb(250, 247, 247);
+    text-decoration: none;
+    margin-right: 24px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .page {
+    max-width: 950px;
+    margin: 30px auto;
+    background-color: rgb(254, 246, 246);
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(9, 9, 9, 0.08);
+  }
+  
+  h1 {
+    margin-top: 0;
+    color: #111827;
+  }
+  
+  .searchBox {
+    margin-top: 22px;
+    margin-bottom: 16px;
+  }
+  
+  input {
+    padding: 11px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #b2b1b1;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 11px 14px;
+    margin-right: 8px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+  
+  button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .message {
+    font-weight: bold;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-top: 24px;
+  }
+  
+  .card {
+    background-color: #9cf626e9;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .chartBox {
+    margin-top: 30px;
+    padding: 16px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+  }
+  
+  .scoreBox {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #eef2ff;
+    border-radius: 8px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .mappingBox {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+  }
+  
+  .exampleText {
+    background-color: #e5e7eb;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+  }
+  
+  ul {
+    line-height: 1.8;
+  }
+  
+  @media (max-width: 800px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      margin-bottom: 10px;
+    }
+  }
