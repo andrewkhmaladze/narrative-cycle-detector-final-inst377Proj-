@@ -28,7 +28,7 @@ Narrative Strength Score =
 
 ## Target Browsers
 
-This project is for and was tested on a desktop running Google Chrome (The project was not tested on or meanr for iOS/Android mobile use).
+This project is for and was tested on a desktop running Google Chrome (The project was not tested on or meant for iOS/Android mobile use).
 
 
 ## Developer Manual
